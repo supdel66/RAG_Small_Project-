@@ -4,7 +4,6 @@ A fully local RAG chatbot. Upload PDFs, DOCX, or TXT files and chat with them.
 
 ## 🏗️ Architecture
 
-```
 User uploads file
       ↓
 FastAPI extracts text → chunks it → embeds with nomic-embed-text → stores in ChromaDB
